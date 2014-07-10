@@ -6,13 +6,13 @@ abstract class Abstracts_ThemeBase {
 	abstract public function __construct();
 	abstract public function head();
 	abstract public function prepend();
-    abstract public function header();
+	abstract public function header();
 	abstract public function content();
-    abstract public function footer();
+	abstract public function footer();
 	abstract public function append();
- 
-    public $settings;
-    public $current_page, $theme_settings;
+
+	public $settings;
+	public $current_page, $theme_settings;
 
 	//-- Common and accessible methods.
 	public function titleUrl() {
@@ -38,7 +38,7 @@ abstract class Abstracts_ThemeBase {
 				'javascript_url' => 'Themes/' . $this->theme_settings['key'] . '/Assets/javascript/',
 			),
 		);
-        return $this->settings;
+		return $this->settings;
 	}
     
 }

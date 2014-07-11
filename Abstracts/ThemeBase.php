@@ -7,6 +7,7 @@ abstract class Abstracts_ThemeBase {
 	abstract public function head();
 	abstract public function prepend();
 	abstract public function header();
+	abstract public function sidebar();
 	abstract public function content();
 	abstract public function footer();
 	abstract public function append();

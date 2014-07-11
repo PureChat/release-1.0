@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e72bcff9-eadf-4f75-b2b9-6a440b21d0a8" name="Default" comment="" />
+    <ignored path="release-1.0.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="release-1.0" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ClassicBase.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Themes/Classic/ClassicBase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="42" selection-start="1663" selection-end="1684" vertical-scroll-proportion="-5.5576925" vertical-offset="731" max-vertical-offset="1615">
+              <folding>
+                <marker date="1405112234829" expanded="true" signature="1685:1752" placeholder="..." />
+                <marker date="1405112234829" expanded="true" signature="1685:1690" placeholder="..." />
+                <marker date="1405112234829" expanded="true" signature="1784:1840" placeholder="..." />
+                <marker date="1405112234829" expanded="true" signature="1900:1945" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginRegister.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="14" selection-start="619" selection-end="619" vertical-scroll-proportion="0.8165939" vertical-offset="51" max-vertical-offset="1904">
+              <folding>
+                <marker date="1405112429629" expanded="true" signature="769:2444" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="811:2434" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="2486:4783" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="2520:2653" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="2712:4773" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="2792:3107" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="2834:2986" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="3030:3070" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="3189:3507" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="3231:3385" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="3429:3470" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="3579:3926" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="3621:3801" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="3845:3889" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="4012:4321" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="4054:4196" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="4240:4284" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="4405:4761" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="4447:4615" placeholder="..." />
+                <marker date="1405112429629" expanded="true" signature="4659:4724" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classic.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="-16.807692" vertical-offset="277" max-vertical-offset="4199">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThemeBase.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Abstracts/ThemeBase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="29" selection-start="158" selection-end="158" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PCController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/PCController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="52" selection-start="1534" selection-end="1534" vertical-scroll-proportion="-9.961538" vertical-offset="421" max-vertical-offset="1445">
+              <folding>
+                <marker date="1405110055249" expanded="true" signature="1799:1824" placeholder="..." />
+                <marker date="1405110055249" expanded="true" signature="1806:1824" placeholder="..." />
+                <marker date="1405110055249" expanded="true" signature="1814:1824" placeholder="..." />
+                <marker date="1405110055249" expanded="true" signature="2400:2409" placeholder="..." />
+                <marker date="1405110055249" expanded="true" signature="2525:2631" placeholder="..." />
+                <marker date="1405110055249" expanded="true" signature="2525:2534" placeholder="..." />
+                <marker date="1405110055249" expanded="true" signature="2525:2534" placeholder="..." />
+                <marker date="1405110055249" expanded="true" signature="2525:2534" placeholder="..." />
+                <marker date="1405110055249" expanded="true" signature="2652:2661" placeholder="..." />
+                <marker date="1405110055249" expanded="true" signature="2778:2787" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Themes/Classic/Classic.php" />
+        <option value="$PROJECT_DIR$/Themes/Classic/Templates/Login.php" />
+        <option value="$PROJECT_DIR$/Themes/Classic/Base.php" />
+        <option value="$PROJECT_DIR$/Abstracts/ThemeBase.php" />
+        <option value="$PROJECT_DIR$/Themes/Modern/ModernBase.php" />
+        <option value="$PROJECT_DIR$/Classes/PCController.php" />
+        <option value="$PROJECT_DIR$/Themes/Classic/ClassicBase.php" />
+        <option value="$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css" />
+        <option value="$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="886" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="release-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="release-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="release-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="release-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="release-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="release-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="release-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e72bcff9-eadf-4f75-b2b9-6a440b21d0a8" name="Default" comment="" />
+      <created>1405099315766</created>
+      <updated>1405099315766</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Themes/Classic/Classic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="101" selection-start="1138" selection-end="1138" vertical-scroll-proportion="-8.384615" vertical-offset="462" max-vertical-offset="1190">
+          <folding>
+            <marker date="1405099383656" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Classic/Templates/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="27" selection-end="27" vertical-scroll-proportion="0.046703298" vertical-offset="0" max-vertical-offset="728">
+          <folding>
+            <marker date="1405099988032" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1405099988032" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Classic/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.6433121" vertical-offset="513" max-vertical-offset="1241">
+          <folding>
+            <marker date="1405100413206" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abstracts/ThemeBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="158" selection-end="158" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Modern/ModernBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.6857749" vertical-offset="646" max-vertical-offset="1326">
+          <folding>
+            <marker date="1405110038690" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/PCController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="52" selection-start="1534" selection-end="1534" vertical-scroll-proportion="-9.961538" vertical-offset="421" max-vertical-offset="1445">
+          <folding>
+            <marker date="1405110055249" expanded="true" signature="1799:1824" placeholder="..." />
+            <marker date="1405110055249" expanded="true" signature="1806:1824" placeholder="..." />
+            <marker date="1405110055249" expanded="true" signature="1814:1824" placeholder="..." />
+            <marker date="1405110055249" expanded="true" signature="2400:2409" placeholder="..." />
+            <marker date="1405110055249" expanded="true" signature="2525:2631" placeholder="..." />
+            <marker date="1405110055249" expanded="true" signature="2525:2534" placeholder="..." />
+            <marker date="1405110055249" expanded="true" signature="2525:2534" placeholder="..." />
+            <marker date="1405110055249" expanded="true" signature="2525:2534" placeholder="..." />
+            <marker date="1405110055249" expanded="true" signature="2652:2661" placeholder="..." />
+            <marker date="1405110055249" expanded="true" signature="2778:2787" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Classic/ClassicBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="42" selection-start="1663" selection-end="1684" vertical-scroll-proportion="-5.5576925" vertical-offset="731" max-vertical-offset="1615">
+          <folding>
+            <marker date="1405112234829" expanded="true" signature="1685:1752" placeholder="..." />
+            <marker date="1405112234829" expanded="true" signature="1685:1690" placeholder="..." />
+            <marker date="1405112234829" expanded="true" signature="1784:1840" placeholder="..." />
+            <marker date="1405112234829" expanded="true" signature="1900:1945" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="-16.807692" vertical-offset="277" max-vertical-offset="4199">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="14" selection-start="619" selection-end="619" vertical-scroll-proportion="0.8165939" vertical-offset="51" max-vertical-offset="1904">
+          <folding>
+            <marker date="1405112429629" expanded="true" signature="769:2444" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="811:2434" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="2486:4783" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="2520:2653" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="2712:4773" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="2792:3107" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="2834:2986" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="3030:3070" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="3189:3507" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="3231:3385" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="3429:3470" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="3579:3926" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="3621:3801" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="3845:3889" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="4012:4321" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="4054:4196" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="4240:4284" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="4405:4761" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="4447:4615" placeholder="..." />
+            <marker date="1405112429629" expanded="true" signature="4659:4724" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -47,7 +47,11 @@ class Classes_PCController {
 		$this->pc_buffer = $this->pc_utilities->loadModule('PCBuffer');
 		$this->pc_buffer->sanitizeUserMethods();
 
-		$this->pc_template = new Themes_Modern_ModernBase();
+		//-- This is a very temporary theme switching technique.
+		$theme_key   = 'Classic'; # Modern | Classic
+		$theme_class = 'Themes_' . $theme_key . '_' . $theme_key . 'Base';
+		$this->pc_template = new $theme_class();
+		//$this->pc_template = new Themes_Classic_ClassicBase();
 
 	}
 
@@ -58,6 +62,7 @@ class Classes_PCController {
 <html>
 	<head>
 		<title>', $template->titleUrl(), '</title>
+		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="Assets/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="Assets/css/global.css" />
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -68,7 +73,10 @@ class Classes_PCController {
 		<div id="header">
 			<!-- ', $template->theme_settings['safe_name'], ' Start Header -->', $template->header(), '
 		</div>
-		<div id="page_', $template->getWrapperId(), '">
+		<div id="sidebar">
+			<!-- ', $template->theme_settings['safe_name'], ' Start Sidebar -->', $template->sidebar(), '
+		</div>
+		<div id="content">
 			<!-- ', $template->theme_settings['safe_name'], ' Start Content -->', $template->content(), '
 		</div>
 		<div id="footer">

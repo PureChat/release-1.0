@@ -26,13 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e72bcff9-eadf-4f75-b2b9-6a440b21d0a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Storage/MySQL/Interpreter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/PCDatabase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Abstracts/StorageBase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php" afterPath="$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Storage/MySQL/Interpreter.php" afterPath="$PROJECT_DIR$/Storage/MySQL/Interpreter.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/PCController.php" afterPath="$PROJECT_DIR$/Classes/PCController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css" afterPath="$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/PCDatabase.php" afterPath="$PROJECT_DIR$/Classes/PCDatabase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Abstracts/StorageBase.php" afterPath="$PROJECT_DIR$/Abstracts/StorageBase.php" />
     </list>
     <ignored path="release-1.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Interpreter.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Interpreter.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Storage/MySQL/Interpreter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="286" selection-end="286" vertical-scroll-proportion="0.275" vertical-offset="0" max-vertical-offset="600">
+            <state line="7" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -102,16 +99,7 @@
       <file leaf-file-name="StorageBase.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Abstracts/StorageBase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="188" selection-end="197" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PCDatabase.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/PCDatabase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="60" selection-start="462" selection-end="462" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="435">
+            <state line="6" column="47" selection-start="178" selection-end="178" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -126,19 +114,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PCController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PCController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Classes/PCController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="8" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-16.875" vertical-offset="180" max-vertical-offset="1335">
+            <state line="48" column="41" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.55" vertical-offset="240" max-vertical-offset="1350">
               <folding>
-                <marker date="1405191179000" expanded="true" signature="1931:1956" placeholder="..." />
-                <marker date="1405191179000" expanded="true" signature="1938:1956" placeholder="..." />
-                <marker date="1405191179000" expanded="true" signature="1946:1956" placeholder="..." />
-                <marker date="1405191179000" expanded="true" signature="2590:2599" placeholder="..." />
-                <marker date="1405191179000" expanded="true" signature="2715:2724" placeholder="..." />
-                <marker date="1405191179000" expanded="true" signature="2842:2851" placeholder="..." />
-                <marker date="1405191179000" expanded="true" signature="2968:2977" placeholder="..." />
+                <marker date="1405192879000" expanded="true" signature="2010:2035" placeholder="..." />
+                <marker date="1405192879000" expanded="true" signature="2017:2035" placeholder="..." />
+                <marker date="1405192879000" expanded="true" signature="2025:2035" placeholder="..." />
+                <marker date="1405192879000" expanded="true" signature="2669:2678" placeholder="..." />
+                <marker date="1405192879000" expanded="true" signature="2794:2803" placeholder="..." />
+                <marker date="1405192879000" expanded="true" signature="2921:2930" placeholder="..." />
+                <marker date="1405192879000" expanded="true" signature="3047:3056" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PCDatabase.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/PCDatabase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="450">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,10 +161,10 @@
         <option value="$PROJECT_DIR$/Themes/Classic/ClassicBase.php" />
         <option value="$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css" />
         <option value="$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php" />
-        <option value="$PROJECT_DIR$/Abstracts/StorageBase.php" />
-        <option value="$PROJECT_DIR$/Classes/PCController.php" />
         <option value="$PROJECT_DIR$/Classes/PCDatabase.php" />
         <option value="$PROJECT_DIR$/Storage/MySQL/Interpreter.php" />
+        <option value="$PROJECT_DIR$/Abstracts/StorageBase.php" />
+        <option value="$PROJECT_DIR$/Classes/PCController.php" />
       </list>
     </option>
   </component>
@@ -410,13 +407,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="52" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1425">
           <folding>
-            <marker date="1405191179000" expanded="true" signature="1931:1956" placeholder="..." />
-            <marker date="1405191179000" expanded="true" signature="1938:1956" placeholder="..." />
-            <marker date="1405191179000" expanded="true" signature="1946:1956" placeholder="..." />
-            <marker date="1405191179000" expanded="true" signature="2590:2599" placeholder="..." />
-            <marker date="1405191179000" expanded="true" signature="2715:2724" placeholder="..." />
-            <marker date="1405191179000" expanded="true" signature="2842:2851" placeholder="..." />
-            <marker date="1405191179000" expanded="true" signature="2968:2977" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="2010:2035" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="2017:2035" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="2025:2035" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="2669:2678" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="2794:2803" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="2921:2930" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="3047:3056" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -432,18 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.6857749" vertical-offset="646" max-vertical-offset="1326">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Classic/ClassicBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="37" selection-start="1422" selection-end="1422" vertical-scroll-proportion="-2.7916667" vertical-offset="593" max-vertical-offset="1440">
-          <folding>
-            <marker date="1405131786000" expanded="true" signature="1776:1781" placeholder="..." />
-            <marker date="1405131786000" expanded="true" signature="1875:2038" placeholder="..." />
-            <marker date="1405131786000" expanded="true" signature="1875:1909" placeholder="..." />
-            <marker date="1405131786000" expanded="true" signature="2098:2143" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -487,39 +472,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/PCController.php">
+    <entry file="file://$PROJECT_DIR$/Themes/Classic/ClassicBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="8" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-16.875" vertical-offset="180" max-vertical-offset="1335">
+        <state line="44" column="37" selection-start="1422" selection-end="1422" vertical-scroll-proportion="-2.7916667" vertical-offset="593" max-vertical-offset="1440">
           <folding>
-            <marker date="1405191179000" expanded="true" signature="1931:1956" placeholder="..." />
-            <marker date="1405191179000" expanded="true" signature="1938:1956" placeholder="..." />
-            <marker date="1405191179000" expanded="true" signature="1946:1956" placeholder="..." />
-            <marker date="1405191179000" expanded="true" signature="2590:2599" placeholder="..." />
-            <marker date="1405191179000" expanded="true" signature="2715:2724" placeholder="..." />
-            <marker date="1405191179000" expanded="true" signature="2842:2851" placeholder="..." />
-            <marker date="1405191179000" expanded="true" signature="2968:2977" placeholder="..." />
+            <marker date="1405131786000" expanded="true" signature="1776:1781" placeholder="..." />
+            <marker date="1405131786000" expanded="true" signature="1875:2038" placeholder="..." />
+            <marker date="1405131786000" expanded="true" signature="1875:1909" placeholder="..." />
+            <marker date="1405131786000" expanded="true" signature="2098:2143" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/PCDatabase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="60" selection-start="462" selection-end="462" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="435">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Abstracts/StorageBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="188" selection-end="197" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="6" column="47" selection-start="178" selection-end="178" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Storage/MySQL/Interpreter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="286" selection-end="286" vertical-scroll-proportion="0.275" vertical-offset="0" max-vertical-offset="600">
+        <state line="7" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="375">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/PCDatabase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/PCController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="41" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.55" vertical-offset="240" max-vertical-offset="1350">
+          <folding>
+            <marker date="1405192879000" expanded="true" signature="2010:2035" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="2017:2035" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="2025:2035" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="2669:2678" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="2794:2803" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="2921:2930" placeholder="..." />
+            <marker date="1405192879000" expanded="true" signature="3047:3056" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

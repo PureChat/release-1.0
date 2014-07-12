@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="PASSWORD" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="PROJECT_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
+    <option name="CHANGES_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e72bcff9-eadf-4f75-b2b9-6a440b21d0a8" name="Default" comment="" />
+    <list default="true" id="e72bcff9-eadf-4f75-b2b9-6a440b21d0a8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Themes/Classic/Base.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Themes/Classic/Classic.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Classic/ClassicBase.php" afterPath="$PROJECT_DIR$/Themes/Classic/ClassicBase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php" afterPath="$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css" afterPath="$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="release-1.0.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,51 +57,52 @@
       <file leaf-file-name="ClassicBase.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Themes/Classic/ClassicBase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="42" selection-start="1663" selection-end="1684" vertical-scroll-proportion="-5.5576925" vertical-offset="731" max-vertical-offset="1615">
+            <state line="17" column="61" selection-start="430" selection-end="430" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="1395">
               <folding>
-                <marker date="1405112234829" expanded="true" signature="1685:1752" placeholder="..." />
-                <marker date="1405112234829" expanded="true" signature="1685:1690" placeholder="..." />
-                <marker date="1405112234829" expanded="true" signature="1784:1840" placeholder="..." />
-                <marker date="1405112234829" expanded="true" signature="1900:1945" placeholder="..." />
+                <marker date="1405121828000" expanded="true" signature="1679:1684" placeholder="..." />
+                <marker date="1405121828000" expanded="true" signature="1778:1941" placeholder="..." />
+                <marker date="1405121828000" expanded="true" signature="1778:1812" placeholder="..." />
+                <marker date="1405121828000" expanded="true" signature="2001:2046" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginRegister.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LoginRegister.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="14" selection-start="619" selection-end="619" vertical-scroll-proportion="0.8165939" vertical-offset="51" max-vertical-offset="1904">
+            <state line="25" column="31" selection-start="659" selection-end="659" vertical-scroll-proportion="-12.5" vertical-offset="75" max-vertical-offset="1755">
               <folding>
-                <marker date="1405112429629" expanded="true" signature="769:2444" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="811:2434" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="2486:4783" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="2520:2653" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="2712:4773" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="2792:3107" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="2834:2986" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="3030:3070" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="3189:3507" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="3231:3385" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="3429:3470" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="3579:3926" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="3621:3801" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="3845:3889" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="4012:4321" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="4054:4196" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="4240:4284" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="4405:4761" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="4447:4615" placeholder="..." />
-                <marker date="1405112429629" expanded="true" signature="4659:4724" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="635:914" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="1200:2875" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="1242:2865" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="2917:5214" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="2951:3084" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="3143:5204" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="3223:3538" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="3265:3417" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="3461:3501" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="3620:3938" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="3662:3816" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="3860:3901" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="4010:4357" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="4052:4232" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="4276:4320" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="4443:4752" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="4485:4627" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="4671:4715" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="4836:5192" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="4878:5046" placeholder="..." />
+                <marker date="1405124872000" expanded="true" signature="5090:5155" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classic.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="classic.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="-16.807692" vertical-offset="277" max-vertical-offset="4199">
+            <state line="158" column="0" selection-start="2633" selection-end="2633" vertical-scroll-proportion="1.7066246" vertical-offset="1130" max-vertical-offset="3388">
               <folding />
             </state>
           </provider>
@@ -79,7 +111,7 @@
       <file leaf-file-name="ThemeBase.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Abstracts/ThemeBase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="29" selection-start="158" selection-end="158" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="850">
+            <state line="6" column="29" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -88,18 +120,15 @@
       <file leaf-file-name="PCController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/PCController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="52" selection-start="1534" selection-end="1534" vertical-scroll-proportion="-9.961538" vertical-offset="421" max-vertical-offset="1445">
+            <state line="54" column="0" selection-start="1706" selection-end="1706" vertical-scroll-proportion="-0.33333334" vertical-offset="652" max-vertical-offset="1275">
               <folding>
-                <marker date="1405110055249" expanded="true" signature="1799:1824" placeholder="..." />
-                <marker date="1405110055249" expanded="true" signature="1806:1824" placeholder="..." />
-                <marker date="1405110055249" expanded="true" signature="1814:1824" placeholder="..." />
-                <marker date="1405110055249" expanded="true" signature="2400:2409" placeholder="..." />
-                <marker date="1405110055249" expanded="true" signature="2525:2631" placeholder="..." />
-                <marker date="1405110055249" expanded="true" signature="2525:2534" placeholder="..." />
-                <marker date="1405110055249" expanded="true" signature="2525:2534" placeholder="..." />
-                <marker date="1405110055249" expanded="true" signature="2525:2534" placeholder="..." />
-                <marker date="1405110055249" expanded="true" signature="2652:2661" placeholder="..." />
-                <marker date="1405110055249" expanded="true" signature="2778:2787" placeholder="..." />
+                <marker date="1405114404000" expanded="true" signature="1799:1824" placeholder="..." />
+                <marker date="1405114404000" expanded="true" signature="1806:1824" placeholder="..." />
+                <marker date="1405114404000" expanded="true" signature="1814:1824" placeholder="..." />
+                <marker date="1405114404000" expanded="true" signature="2400:2409" placeholder="..." />
+                <marker date="1405114404000" expanded="true" signature="2525:2534" placeholder="..." />
+                <marker date="1405114404000" expanded="true" signature="2652:2661" placeholder="..." />
+                <marker date="1405114404000" expanded="true" signature="2778:2787" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -125,17 +154,17 @@
         <option value="$PROJECT_DIR$/Themes/Modern/ModernBase.php" />
         <option value="$PROJECT_DIR$/Classes/PCController.php" />
         <option value="$PROJECT_DIR$/Themes/Classic/ClassicBase.php" />
-        <option value="$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css" />
         <option value="$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php" />
+        <option value="$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="886" />
+    <option name="x" value="1722" />
+    <option name="y" value="34" />
+    <option name="width" value="1211" />
+    <option name="height" value="765" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -235,21 +264,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="0" />
+    <frame x="1722" y="34" width="1211" height="765" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24978614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -275,11 +305,72 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Themes/Classic/Classic.php">
+    <entry file="file://$PROJECT_DIR$/Themes/Classic/ClassicBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="101" selection-start="1138" selection-end="1138" vertical-scroll-proportion="-8.384615" vertical-offset="462" max-vertical-offset="1190">
+        <state line="60" column="42" selection-start="1663" selection-end="1684" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1425">
           <folding>
-            <marker date="1405099383656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1405121828000" expanded="true" signature="1679:1684" placeholder="..." />
+            <marker date="1405121828000" expanded="true" signature="1778:1941" placeholder="..." />
+            <marker date="1405121828000" expanded="true" signature="1778:1812" placeholder="..." />
+            <marker date="1405121828000" expanded="true" signature="2001:2046" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="14" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1680">
+          <folding>
+            <marker date="1405124872000" expanded="true" signature="635:914" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="1200:2875" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="1242:2865" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="2917:5214" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="2951:3084" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3143:5204" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3223:3538" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3265:3417" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3461:3501" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3620:3938" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3662:3816" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3860:3901" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4010:4357" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4052:4232" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4276:4320" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4443:4752" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4485:4627" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4671:4715" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4836:5192" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4878:5046" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="5090:5155" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="3705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abstracts/ThemeBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/PCController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="52" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1425">
+          <folding>
+            <marker date="1405114404000" expanded="true" signature="1799:1824" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="1806:1824" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="1814:1824" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="2400:2409" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="2525:2534" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="2652:2661" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="2778:2787" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -287,100 +378,82 @@
     <entry file="file://$PROJECT_DIR$/Themes/Classic/Templates/Login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="20" selection-start="27" selection-end="27" vertical-scroll-proportion="0.046703298" vertical-offset="0" max-vertical-offset="728">
-          <folding>
-            <marker date="1405099988032" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1405099988032" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Classic/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.6433121" vertical-offset="513" max-vertical-offset="1241">
-          <folding>
-            <marker date="1405100413206" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Abstracts/ThemeBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="158" selection-end="158" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="850">
+        <state line="6" column="29" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Themes/Modern/ModernBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.6857749" vertical-offset="646" max-vertical-offset="1326">
-          <folding>
-            <marker date="1405110038690" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="57" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.6857749" vertical-offset="646" max-vertical-offset="1326" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/PCController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="52" selection-start="1534" selection-end="1534" vertical-scroll-proportion="-9.961538" vertical-offset="421" max-vertical-offset="1445">
+        <state line="54" column="0" selection-start="1706" selection-end="1706" vertical-scroll-proportion="-0.33333334" vertical-offset="652" max-vertical-offset="1275">
           <folding>
-            <marker date="1405110055249" expanded="true" signature="1799:1824" placeholder="..." />
-            <marker date="1405110055249" expanded="true" signature="1806:1824" placeholder="..." />
-            <marker date="1405110055249" expanded="true" signature="1814:1824" placeholder="..." />
-            <marker date="1405110055249" expanded="true" signature="2400:2409" placeholder="..." />
-            <marker date="1405110055249" expanded="true" signature="2525:2631" placeholder="..." />
-            <marker date="1405110055249" expanded="true" signature="2525:2534" placeholder="..." />
-            <marker date="1405110055249" expanded="true" signature="2525:2534" placeholder="..." />
-            <marker date="1405110055249" expanded="true" signature="2525:2534" placeholder="..." />
-            <marker date="1405110055249" expanded="true" signature="2652:2661" placeholder="..." />
-            <marker date="1405110055249" expanded="true" signature="2778:2787" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="1799:1824" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="1806:1824" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="1814:1824" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="2400:2409" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="2525:2534" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="2652:2661" placeholder="..." />
+            <marker date="1405114404000" expanded="true" signature="2778:2787" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Themes/Classic/ClassicBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="42" selection-start="1663" selection-end="1684" vertical-scroll-proportion="-5.5576925" vertical-offset="731" max-vertical-offset="1615">
+        <state line="17" column="61" selection-start="430" selection-end="430" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="1395">
           <folding>
-            <marker date="1405112234829" expanded="true" signature="1685:1752" placeholder="..." />
-            <marker date="1405112234829" expanded="true" signature="1685:1690" placeholder="..." />
-            <marker date="1405112234829" expanded="true" signature="1784:1840" placeholder="..." />
-            <marker date="1405112234829" expanded="true" signature="1900:1945" placeholder="..." />
+            <marker date="1405121828000" expanded="true" signature="1679:1684" placeholder="..." />
+            <marker date="1405121828000" expanded="true" signature="1778:1941" placeholder="..." />
+            <marker date="1405121828000" expanded="true" signature="1778:1812" placeholder="..." />
+            <marker date="1405121828000" expanded="true" signature="2001:2046" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="31" selection-start="659" selection-end="659" vertical-scroll-proportion="-12.5" vertical-offset="75" max-vertical-offset="1755">
+          <folding>
+            <marker date="1405124872000" expanded="true" signature="635:914" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="1200:2875" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="1242:2865" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="2917:5214" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="2951:3084" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3143:5204" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3223:3538" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3265:3417" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3461:3501" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3620:3938" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3662:3816" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="3860:3901" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4010:4357" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4052:4232" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4276:4320" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4443:4752" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4485:4627" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4671:4715" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4836:5192" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="4878:5046" placeholder="..." />
+            <marker date="1405124872000" expanded="true" signature="5090:5155" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Themes/Classic/Assets/css/classic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="-16.807692" vertical-offset="277" max-vertical-offset="4199">
+        <state line="158" column="0" selection-start="2633" selection-end="2633" vertical-scroll-proportion="1.7066246" vertical-offset="1130" max-vertical-offset="3388">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Classic/Templates/LoginRegister.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="14" selection-start="619" selection-end="619" vertical-scroll-proportion="0.8165939" vertical-offset="51" max-vertical-offset="1904">
-          <folding>
-            <marker date="1405112429629" expanded="true" signature="769:2444" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="811:2434" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="2486:4783" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="2520:2653" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="2712:4773" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="2792:3107" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="2834:2986" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="3030:3070" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="3189:3507" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="3231:3385" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="3429:3470" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="3579:3926" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="3621:3801" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="3845:3889" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="4012:4321" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="4054:4196" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="4240:4284" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="4405:4761" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="4447:4615" placeholder="..." />
-            <marker date="1405112429629" expanded="true" signature="4659:4724" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -22,9 +22,14 @@ class Themes_Classic_Templates_LoginRegister {
 
 	public function sidebar() {
 		$this->sidebar_content['header'] = '
-		<label>Display Name:</label><br /><input type="text" />
-		<br />
-		<label>Password:</label><br /><input type="password" />';
+		<form action="index.php?action=user&perform=login" method="post" id="login_form">
+			<input type="text" id="login_username" name="login_username" class="input_text" placeholder="Email Address" />
+			<input type="password" id="login_password" name="login_password" class="input_text" placeholder="Password" />
+			<input type="submit" value="Login!" />
+		</form>';
+
+		$this->sidebar_content['user_name'] = 'Guest';
+		$this->sidebar_content['append'] = '<span id="guest_advice">You are currently logged out. Please use the form above to log back in.</span>';
 	}
 
 	public function content() {

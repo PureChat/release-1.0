@@ -17,12 +17,21 @@ body.theme_classic #footer {
 }
 
 body.theme_classic #sidebar {
+	background: url('../images/theme_blocks/sidebar_bg.png') repeat;
+	z-index: 5;
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	width: 15%;
 	background: #4c4f53;
+	font-size: 14px;
+	padding: 0 5px;
+	text-align: center;
+	color: #8b8b8b;
+	font-size: 14px;
+	border-left: 1px solid #222;
+	box-shadow: -3px 0px 5px 1px #444; -moz-box-shadow: -3px 0px 5px 1px #444; -webkit-box-shadow: -3px 0px 5px 1px #444;
 }
 
 body.theme_classic #sidebar input {
@@ -32,7 +41,6 @@ body.theme_classic #sidebar input {
 	padding: 8px;
 	color: #fff;
 	font-size: 13px;
-	background: #3a3d41;
 	border: 1px solid #1c1d20;
 	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
 }
@@ -55,7 +63,10 @@ body.theme_classic #content {
 	padding: 6px 0 0 0;
 	height: 180px;
 	background: url('../images/theme_blocks/sidebar_header.png') repeat-x;
-	text-align: center;
+}
+
+#login_form {
+	margin-top: 8px;
 }
 
 #sidebar_user_info {
@@ -70,7 +81,7 @@ body.theme_classic #content {
 
 #sidebar_user_name {
 	display: block;
-	margin: 12px auto 0 auto;
+	margin: 12px auto 4px auto;
 	text-align: center;
 	font-weight: bold;
 }
@@ -81,6 +92,27 @@ body.theme_classic #content {
 	right: 0;
 	left: 0;
 	height: 5px;
+}
+
+#sidebar input[type=submit] {
+	display: block;
+	margin: 0 10px;
+	padding: 8px;
+	color: #fff;
+	font-size: 13px;
+	cursor: pointer;
+	background: #466b9b;
+	border: 1px solid #1c1d20;
+	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+
+#sidebar input[type=submit]:hover {
+	background: #42649b;
+}
+
+#guest_advice {
+	color: #a9cbe0;
+	font-size: 12px;
 }
 
 #shine_overlay {
@@ -125,47 +157,6 @@ input[type=submit]:hover {
 	background-color: #3969a6;
 }
 
-/* PureChat Copyright */
-#purechat_copyright {
-	display: block;
-	width: 30px;
-	height: 46px;
-	background-image: url('../images/purechat-water-drop.png');
-	float: right;
-	position: absolute;
-	top: 12px;
-	right: 10px;
-	transform: rotate(9deg); -moz-transform: rotate(9deg); -webkit-transform: rotate(9deg);
-}
-
-/*
- * Logo */
-#logo {
-	width: 257px;
-	margin-left: 1%;
-}
-#logo a {
-	display: block;
-	width: 257px;
-	height: 89px;
-	background-image: url('../images/logo.png');
-	background-repeat: no-repeat;
-	background-position: 0px 16px;
-	text-decoration: none;
-}
-
-/*
- * Login Form */
-#login {
-	margin-top: 22px;
-	margin-right: 1%;
-}
-#user, #password {
-	margin-right: 4px;
-}
-#login_submit {
-	padding-top: 8px;
-}
 
 /* Site Description */
 #site_description {
@@ -239,4 +230,8 @@ input[type=submit]:hover {
 .right_column {
 	width: 48%;
 	text-align: right;
+}
+
+.input_text  {
+	background: #3a3d41;
 }

@@ -45,11 +45,11 @@ class Themes_Classic_ClassicBase extends Abstracts_ThemeBase {
 
 	public function prepend() {}
  
-    public function header() {
+	public function header() {
 		if (isset($this->sub_template->template_layers['header'])) {
 			$this->sub_template->header();
 		}
-    }
+	}
 
 	public function sidebar() {
 
@@ -62,7 +62,8 @@ class Themes_Classic_ClassicBase extends Abstracts_ThemeBase {
 				', $this->sub_template->sidebar_content['header'], '
 			</div>
 			<div id="sidebar_user_info">
-				<span id="sidebar_user_name">Guest</span>
+				<span id="sidebar_user_name">', $this->sub_template->sidebar_content['user_name'], '</span>
+				', $this->sub_template->sidebar_content['append'], '
 			</div>
 			<div id="sidebar_user_status" class="user_status_guest">
 				<div id="shine_overlay"></div>
@@ -76,14 +77,11 @@ class Themes_Classic_ClassicBase extends Abstracts_ThemeBase {
 		}
 	}
  
-    public function footer() {
- 		echo '
-			<a href="http://www.purechat.org/copyright" id="purechat_copyright" title="PureChat &copy; 2012-2014"></a>
-		';
+	public function footer() {
 		if (isset($this->sub_template->template_layers['footer'])) {
 			$this->sub_template->footer();
 		}
-    }
+	}
 
 	public function append() {}
 

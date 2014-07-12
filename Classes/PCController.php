@@ -46,9 +46,10 @@ class Classes_PCController {
 		$this->pc_buffer = $this->pc_utilities->loadModule('PCBuffer');
 		$this->pc_buffer->sanitizeUserMethods();
 
-		$this->database = new Classes_PCDatabase('mysql');
-		$this->database->startConnection();
-		echo '<pre>', print_r($this->database), '</pre>';
+		//-- Initiate our Storage System!
+		$this->db_interperter = new Classes_PCDatabase('mysql');
+		$this->db_storage     = $this->db_interperter->getStorageSystem();
+		$this->database = $this->db_storage->startConnection();
 
 		//-- This is a very temporary theme switching technique.
 		$theme_key   = 'Classic'; # Modern | Classic

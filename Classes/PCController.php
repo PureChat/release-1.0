@@ -32,8 +32,7 @@ define('PC_COPYRIGHT', '&copy; 2012-2014 <a href="http://purechat.org/" target="
 
 class Classes_PCController {
 
-	//-- PureChat Modules
-	public $pc_utilities;
+	public $database, $pc_utilities;
 
 	//-- Utility Modules
 	public $pc_buffer;
@@ -46,6 +45,10 @@ class Classes_PCController {
 
 		$this->pc_buffer = $this->pc_utilities->loadModule('PCBuffer');
 		$this->pc_buffer->sanitizeUserMethods();
+
+		$this->database = new Classes_PCDatabase('mysql');
+		$this->database->startConnection();
+		echo '<pre>', print_r($this->database), '</pre>';
 
 		//-- This is a very temporary theme switching technique.
 		$theme_key   = 'Classic'; # Modern | Classic
@@ -68,6 +71,7 @@ class Classes_PCController {
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<!-- ', $template->theme_settings['safe_name'], ' Start Head -->', $template->head(), '
 	</head>
+	<!-- TODO: Add action_WHATEVER as a class to the body-->
 	<body class="theme_', $template->theme_settings['css_id'], '">
 		<!-- ', $template->theme_settings['safe_name'], ' Start Prepend -->', $template->prepend(), '
 		<div id="header">

@@ -68,6 +68,7 @@ class Classes_PCController {
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<!-- ', $template->theme_settings['safe_name'], ' Start Head -->', $template->head(), '
 	</head>
+	<!-- TODO: Add action_WHATEVER as a class to the body-->
 	<body class="theme_', $template->theme_settings['css_id'], '">
 		<!-- ', $template->theme_settings['safe_name'], ' Start Prepend -->', $template->prepend(), '
 		<div id="header">

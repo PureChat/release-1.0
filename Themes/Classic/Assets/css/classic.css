@@ -20,6 +20,7 @@ input {
 input:focus {
 	outline: none;
 }
+input:valid, input:invalid, input:required, input:optional {}
 
 /*
  * Classic Theme Basics & Overrides

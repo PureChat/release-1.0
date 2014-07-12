@@ -31,9 +31,9 @@ class Themes_Classic_Templates_LoginRegister {
 	public function sidebar() {
 		$this->sidebar_content['header'] = '
 		<form action="index.php?action=user&perform=login" method="post" id="login_form">
-			<input type="text" id="login_username" name="login_username" class="dark_input" placeholder="Email Address" />
-			<input type="password" id="login_password" name="login_password" class="dark_input" placeholder="Password" />
-			<input type="submit" class="universal_submit" value="Login!" />
+			<input type="text" id="login_username" name="login_username" class="dark_input" maxlength="80" placeholder="Email Address" required autofocus>
+			<input type="password" id="login_password" name="login_password" class="dark_input" maxlength="150" placeholder="Password" required>
+			<input type="submit" class="universal_submit" value="Login!">
 		</form>';
 
 		$this->sidebar_content['user_name'] = 'Guest';
@@ -50,19 +50,19 @@ class Themes_Classic_Templates_LoginRegister {
 				<form action="index.php?action=user&perform=register" method="post" id="register_form">
 					<!-- Display Name -->
 					<div id="display_name_cont" class="form_field">
-						<input type="text" class="light_input" placeholder="Display Name">
+						<input type="text" class="light_input" maxlength="35" placeholder="Display Name" required>
 					</div>
 					<!-- Email Address -->
 					<div id="email_address_cont" class="form_field">
-						<input type="email" class="light_input" placeholder="Email Address">
+						<input type="email" class="light_input" maxlength="80" placeholder="Email Address" required>
 					</div>
 					<!-- Password -->
 					<div id="password_cont" class="form_field">
-						<input type="password" class="light_input" placeholder="Password">
+						<input type="password" class="light_input" maxlength="150" laceholder="Password" required>
 					</div>
 					<!-- Password Repeat -->
 					<div id="password_repeat_cont" class="form_field">
-						<input type="password" class="light_input" placeholder="Password Again">
+						<input type="password" class="light_input" maxlength="150" placeholder="Password Again" required>
 					</div>
 					<!-- Submit Button -->
 					<div id="register_submit_cont" class="form_field">

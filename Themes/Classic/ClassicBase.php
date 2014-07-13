@@ -4,7 +4,7 @@ class Themes_Classic_ClassicBase extends Abstracts_ThemeBase {
 
 	public $sub_template;
 
-	public function __construct($sub_template_call = false) {
+	public function __construct($form_errors, $sub_template_call = false) {
 
 		$this->theme_settings = array(
 			'key' => 'Classic',
@@ -26,10 +26,13 @@ class Themes_Classic_ClassicBase extends Abstracts_ThemeBase {
 		);
 
 		$this->getSettings();
+		$this->setFormErrors($form_errors);
+
+		die(print_r($this->form_errors));
 
 		if (!isset($_REQUEST['page']) || $_REQUEST['page'] == 'main') {
 			if (!isset($_SESSION['is_authenticated'])) {
-				$this->sub_template = new Themes_Classic_Templates_LoginRegister($this->theme_settings, $this->settings);
+				$this->sub_template = new Themes_Classic_Templates_LoginRegister($this->theme_settings, $this->settings, $this->form_errors);
 			} else {
 				$this->sub_template = new Themes_Classic_Templates_Chat();
 			}
@@ -71,6 +74,7 @@ class Themes_Classic_ClassicBase extends Abstracts_ThemeBase {
 			<div id="sidebar_user_status" class="user_status_guest">
 				<div id="shine_overlay"></div>
 			</div>
+			', $this->sub_template->sidebar_content['footer'], '
 		';
 	}
 

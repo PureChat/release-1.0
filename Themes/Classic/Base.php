@@ -1,6 +1,6 @@
 <?php
 
-class Themes_Classic_ClassicBase extends Abstracts_ThemeBase {
+class Themes_Classic_Base extends Abstracts_ThemeBase {
 
 	public $sub_template;
 
@@ -42,8 +42,8 @@ class Themes_Classic_ClassicBase extends Abstracts_ThemeBase {
 	public function head() {
 		echo '
 		<link rel="shortcut icon" href="', $this->settings['theme']['images_url'], 'icon.ico" />
-		<link rel="stylesheet" type="text/css" href="', $this->settings['theme']['css_url'], 'classic.css" />
-		<script src="', $this->settings['theme']['javascript_url'], 'classic.js"></script>';
+		<link rel="stylesheet" type="text/css" href="', $this->settings['theme']['css_url'], 'main.css" />
+		<script src="', $this->settings['theme']['javascript_url'], 'main.js"></script>';
 		if (isset($this->sub_template->template_layers['head'])) {
 			$this->sub_template->head();
 		}

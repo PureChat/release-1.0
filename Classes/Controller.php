@@ -50,7 +50,7 @@ class Classes_Controller {
 
 		//-- This is a very temporary theme switching technique.
 		$theme_key   = 'Classic'; # Modern | Classic
-		$theme_class = 'Themes_' . $theme_key . '_' . $theme_key . 'Base';
+		$theme_class = 'Themes_' . $theme_key . '_Base';
 		$this->pc_template = new $theme_class($form_errors);
 
 	}

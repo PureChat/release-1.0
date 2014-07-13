@@ -28,8 +28,6 @@ class Themes_Classic_Base extends Abstracts_ThemeBase {
 		$this->getSettings();
 		$this->setFormErrors($form_errors);
 
-		die(print_r($this->form_errors));
-
 		if (!isset($_REQUEST['page']) || $_REQUEST['page'] == 'main') {
 			if (!isset($_SESSION['is_authenticated'])) {
 				$this->sub_template = new Themes_Classic_Templates_LoginRegister($this->theme_settings, $this->settings, $this->form_errors);

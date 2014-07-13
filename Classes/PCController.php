@@ -51,11 +51,18 @@ class Classes_PCController {
 		$this->db_storage     = $this->db_interperter->getStorageSystem();
 		$this->database = $this->db_storage->startConnection();
 
+		$form_errors = array();
+		if (!empty($_REQUEST['action']) && $_REQUEST['action'] == 'register') {
+			$registration = new Processes_Register($this->database);
+			$registration->validateForm();
+			$form_errors = $registration->getFormErrors();
+		}
+
 		//-- This is a very temporary theme switching technique.
 		$theme_key   = 'Classic'; # Modern | Classic
 		$theme_class = 'Themes_' . $theme_key . '_' . $theme_key . 'Base';
-		$this->pc_template = new $theme_class();
-		//$this->pc_template = new Themes_Classic_ClassicBase();
+		$this->pc_template = new $theme_class($form_errors);
+		//$this->pc_template->setFormErrors($form_errors);
 
 	}
 

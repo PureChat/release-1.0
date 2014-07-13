@@ -3,7 +3,7 @@
 abstract class Abstracts_ThemeBase {
 
 	//-- All of the abstract (required) methods.
-	abstract public function __construct();
+	abstract public function __construct($form_errors, $sub_template_call);
 	abstract public function head();
 	abstract public function prepend();
 	abstract public function header();
@@ -14,6 +14,7 @@ abstract class Abstracts_ThemeBase {
 
 	public $settings;
 	public $current_page, $theme_settings;
+	public $form_errors;
 
 	//-- Common and accessible methods.
 	public function titleUrl() {
@@ -40,6 +41,10 @@ abstract class Abstracts_ThemeBase {
 			),
 		);
 		return $this->settings;
+	}
+
+	public function setFormErrors($form_errors) {
+		$this->form_errors = $form_errors;
 	}
     
 }

@@ -141,6 +141,12 @@ form#register_form {
 	/* Just here cause... */
 }
 
+#registration_errors {
+	width: 87.6%;
+	margin-top: 8px;
+	padding: 10px;
+}
+
 #register_container input {
 	width: 90%;
 	display: block;
@@ -158,10 +164,13 @@ form#register_form {
 	background: #466b9b;
 	padding: 8px;
 	color: #fff;
-	width: 25% !important;
 	font-size: 13px;
 	border: 1px solid #1c1d20;
 	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+
+#register_form input[type=submit] {
+	width: 25%;
 }
 
 .universal_submit:hover {
@@ -217,4 +226,20 @@ form#register_form {
 .right_column {
 	width: 48%;
 	text-align: right;
+}
+
+.error_box {
+	color: #d8000c;
+	background: #ffbaba;
+	border: 1px solid #ff0000;
+}
+
+.error_box ul {
+	margin-top: 3px;
+}
+
+.success_box {
+	color: #4f8a10;
+	background-color: #dff2bf;
+	border: 1px solid #00ff00;
 }

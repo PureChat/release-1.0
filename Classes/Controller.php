@@ -30,18 +30,16 @@
 define('PC_VERSION', 'v0.0.1 r1');
 define('PC_COPYRIGHT', '&copy; 2012-2014 <a href="http://purechat.org/" target="_blank">PureChat</a>');
 
-class Classes_PCController {
+class Classes_Controller {
 
-	public $database;
-
-	public $pc_template;
+	public $database, $pc_template;
 
 	public function __construct() {
 
 		//-- Initiate our Storage System!
-		$this->db_interperter = new Classes_PCDatabase('mysql');
+		$this->db_interperter = new Classes_Database('mysql');
 		$this->db_storage     = $this->db_interperter->getStorageSystem();
-		$this->database = $this->db_storage->startConnection();
+		$this->database       = $this->db_storage->startConnection();
 
 		$form_errors = array();
 		if (!empty($_REQUEST['action']) && $_REQUEST['action'] == 'register') {

@@ -1,6 +1,6 @@
 <?php
 
-class Classes_PCDatabase {
+class Classes_Database {
 
 	public $storage_path, $available_storage_systems;
 

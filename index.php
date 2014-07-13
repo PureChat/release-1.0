@@ -38,5 +38,5 @@ $_GET = array_map('stripslashes', $_GET);
 $_POST = array_map('stripslashes', $_POST);
 $_REQUEST = array_map('stripslashes', $_REQUEST);
 
-$pc = new Classes_PCController();
+$pc = new Classes_Controller();
 $pc->initialize();

@@ -34,5 +34,9 @@ define('BASE_DIR', dirname($_SERVER['SCRIPT_FILENAME']));
 require_once BASE_DIR . '/autoload.php';
 spl_autoload_register('pc_autoload');
 
+$_GET = array_map('stripslashes', $_GET);
+$_POST = array_map('stripslashes', $_POST);
+$_REQUEST = array_map('stripslashes', $_REQUEST);
+
 $pc = new Classes_PCController();
 $pc->initialize();

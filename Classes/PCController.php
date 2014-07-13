@@ -32,19 +32,11 @@ define('PC_COPYRIGHT', '&copy; 2012-2014 <a href="http://purechat.org/" target="
 
 class Classes_PCController {
 
-	public $database, $pc_utilities;
-
-	//-- Utility Modules
-	public $pc_buffer;
+	public $database;
 
 	public $pc_template;
 
 	public function __construct() {
-
-		$this->pc_utilities = new Classes_PCUtilities();
-
-		$this->pc_buffer = $this->pc_utilities->loadModule('PCBuffer');
-		$this->pc_buffer->sanitizeUserMethods();
 
 		//-- Initiate our Storage System!
 		$this->db_interperter = new Classes_PCDatabase('mysql');
@@ -62,7 +54,6 @@ class Classes_PCController {
 		$theme_key   = 'Classic'; # Modern | Classic
 		$theme_class = 'Themes_' . $theme_key . '_' . $theme_key . 'Base';
 		$this->pc_template = new $theme_class($form_errors);
-		//$this->pc_template->setFormErrors($form_errors);
 
 	}
 

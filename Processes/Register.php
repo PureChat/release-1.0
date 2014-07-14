@@ -81,7 +81,7 @@ class Processes_Register {
 			$register_user->registerUser($form_data);
 			$user_id = $register_user->getNewUserId();
 
-			mail($form_data['email_address'], 'PureChat Activation', 'Please click the following link to activate your account: http://localhost/github/release-1.0/index.php?action=activate_user&code=' . $form_data['activation_code']);
+			mail($form_data['email_address'], 'PureChat Activation', 'Please click the following link to activate your account: ' . BASE_URL . '?action=activate_user&code=' . $form_data['activation_code']);
 			die('Your new account user ID is: ' . $user_id);
 		}
 

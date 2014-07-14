@@ -2,13 +2,13 @@
 
 class Themes_Classic_Templates_LoginRegister {
 
-	public $theme_settings, $settings, $form_errors;
+	public $theme_settings, $settings, $context;
 	public $template_layers, $sidebar_content;
 
-	public function __construct($theme_settings, $settings, $form_errors) {
+	public function __construct($theme_settings, $settings, $context) {
 		$this->theme_settings  = $theme_settings;
 		$this->settings        = $settings;
-		$this->form_errors     = $form_errors;
+		$this->context         = $context;
 		$this->sidebar_content = array();
 		$this->template_layers = array(
 			'head' => true,
@@ -43,18 +43,24 @@ class Themes_Classic_Templates_LoginRegister {
 	}
 
 	public function content() {
+		if (!empty($this->context['activation_status']) && $this->context['activation_status'] == 'account_active') {
+			echo '
+			<div id="account_activated" class="success_box">
+			Your account is now activated! You can now login on the sidebar.
+			</div>';
+		}
 		echo '
 			<div id="register_container">
 				<span class="section_header">
 					<h2>Create an Account</h2>
 					<span class="subtext">Please fill out the form below to create your account.</span>
 				</span>';
-				if (!empty($this->form_errors)) {
+				if (!empty($this->context['registration_errors'])) {
 					echo '
 					<div id="registration_errors" class="error_box">
-						The following error', count($this->form_errors) > 1 ? 's were encountered' : ' was encountered', ':
+						The following error', count($this->context['registration_errors']) > 1 ? 's were encountered' : ' was encountered', ':
 						<ul>';
-						foreach ($this->form_errors as $key => $value) {
+						foreach ($this->context['registration_errors'] as $key => $value) {
 							echo '<li id="', $key, '">', $value, '</li>';
 						}
 						echo '
@@ -83,6 +89,8 @@ class Themes_Classic_Templates_LoginRegister {
 					<div id="submit_cont" class="form_field">
 						<input type="submit" class="universal_submit" value="Create Account">
 					</div>
+					<!-- Hidden Fields -->
+					<input type="hidden" id="registering" name="registering" value="1">
 				</form>
 			</div>
 			<br class="clear">';

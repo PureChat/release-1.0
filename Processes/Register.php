@@ -9,7 +9,7 @@ class Processes_Register {
 	public $valid_fields;
 	public $form_errors;
 
-	public function __construct(PDO $database) {
+	public function __construct($database) {
 		$this->database     = $database;
 		$this->form_errors  = array();
 		$this->valid_fields = array(
@@ -22,6 +22,8 @@ class Processes_Register {
 
 	public function validateForm() {
 
+		$register_user = new Storage_MySQL_Guest($this->database);
+
 		//-- Basic data sanitation.
 		$_POST['display_name'] = !empty($_POST['display_name']) ? $_POST['display_name'] : '';
 		$_POST['email_address'] = !empty($_POST['email_address']) ? $_POST['email_address'] : '';
@@ -30,7 +32,7 @@ class Processes_Register {
 
 		//-- All this block does is complains and tries to catch problems.
 		if (!empty($_POST['display_name'])) {
-			if ($_POST['display_name'] == 'Labradoodle-360') {
+			if ($register_user->checkDisplayExists($_POST['display_name']) === true) {
 				$this->form_errors['existing_display_name'] = 'The display name "' . $_POST['display_name'] . '" is already in use.';
 			} else if (strlen($_POST['display_name']) > 35) {
 				$this->form_errors['exceeds_length_display_name'] = 'Your display name is ' . strlen($_POST['display_name']) . ' characters long, while the maximum length allowed is 35.';
@@ -41,6 +43,8 @@ class Processes_Register {
 
 		if (!empty($_POST['email_address']) && filter_var($_POST['email_address'], FILTER_VALIDATE_EMAIL) === false) {
 			$this->form_errors['invalid_email_address'] = 'Enter a valid email address.';
+		} else if (!empty($_POST['email_address']) && $register_user->checkEmailExists($_POST['email_address']) === true) {
+			$this->form_errors['existing_email_address'] = 'The email address you entered is already in use.';
 		} else if (empty($_POST['email_address'])) {
 			$this->form_errors['empty_email_address'] = 'Enter an email address.';
 		}
@@ -55,7 +59,30 @@ class Processes_Register {
 
 		//-- Success!
 		if (empty($this->form_errors)) {
-			echo 'It appears you are a good kid!';
+
+			if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+				$ip_address = $_SERVER['HTTP_CLIENT_IP'];
+			} else if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+				$ip_address = $_SERVER['HTTP_X_FORWARDED_FOR'];
+			} else {
+				$ip_address = $_SERVER['REMOTE_ADDR'];
+			}
+
+			$form_data = array(
+				'display_name' => $_POST['display_name'],
+				'email_address' => $_POST['email_address'],
+				'password' => password_hash($_POST['password'], PASSWORD_DEFAULT),
+				'roles_id' => 3, //-- TODO: Implement roles. Right now 3 = Regular Member
+				'activation_code' => sha1(mt_rand(10000, 99999) .time() . $_POST['email_address']),
+				'ip_address' => $ip_address,
+				'hostname' => gethostname(),
+			);
+
+			$register_user->registerUser($form_data);
+			$user_id = $register_user->getNewUserId();
+
+			mail($form_data['email_address'], 'PureChat Activation', 'Please click the following link to activate your account: http://localhost/github/release-1.0/index.php?action=activate_user&code=' . $form_data['activation_code']);
+			die('Your new account user ID is: ' . $user_id);
 		}
 
 	}

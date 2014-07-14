@@ -31,7 +31,7 @@ session_start();
 error_reporting(E_ALL);
 
 define('BASE_DIR', dirname($_SERVER['SCRIPT_FILENAME']));
-define('BASE_URL', $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) . '/index.php');
+define('BASE_URL', 'http://' . $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) . '/index.php');
 
 require_once BASE_DIR . '/autoload.php';
 spl_autoload_register('pc_autoload');

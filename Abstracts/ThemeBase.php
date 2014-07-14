@@ -3,7 +3,7 @@
 abstract class Abstracts_ThemeBase {
 
 	//-- All of the abstract (required) methods.
-	abstract public function __construct($form_errors, $sub_template_call);
+	abstract public function __construct($context, $sub_template_call);
 	abstract public function head();
 	abstract public function prepend();
 	abstract public function header();

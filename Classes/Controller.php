@@ -45,7 +45,7 @@ class Classes_Controller {
 		if (!empty($_REQUEST['action']) && $_REQUEST['action'] == 'register' && !empty($_POST['registering'])) {
 			$registration = new Processes_Register($this->database);
 			$registration->validateForm();
-			$for_template['registration_errors'] = $registration->getFormErrors();
+			$for_template = $registration->getFormErrors();
 		}
 
 		if (!empty($_REQUEST['action']) && $_REQUEST['action'] == 'activate_user' && !empty($_REQUEST['code'])) {

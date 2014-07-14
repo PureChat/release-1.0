@@ -46,8 +46,15 @@ class Themes_Classic_Templates_LoginRegister {
 		if (!empty($this->context['activation_status']) && $this->context['activation_status'] == 'account_active') {
 			echo '
 			<div id="success_account_activated" class="success_box">
-			Your account is now activated! You can now login on the sidebar.
+				Your account is now activated! You can now login on the sidebar.
 			</div>';
+		}
+		if (!empty($this->context['registration_complete'])) {
+			echo '
+			<div id="registration_complete" class="success_box">
+				Thank you for registering! Please check your email to confirm your account, before logging in.
+			</div>
+			';
 		}
 		echo '
 			<div id="register_container">

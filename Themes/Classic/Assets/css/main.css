@@ -127,7 +127,7 @@ body.theme_classic #sidebar {
 }
 
 /* Account Activation */
-#success_account_activated {
+#success_account_activated, #registration_complete {
 	width: 49%;
 	margin-left: 20%;
 	padding: 10px;

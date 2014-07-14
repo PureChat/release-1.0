@@ -45,7 +45,7 @@ class Themes_Classic_Templates_LoginRegister {
 	public function content() {
 		if (!empty($this->context['activation_status']) && $this->context['activation_status'] == 'account_active') {
 			echo '
-			<div id="account_activated" class="success_box">
+			<div id="success_account_activated" class="success_box">
 			Your account is now activated! You can now login on the sidebar.
 			</div>';
 		}

@@ -38,20 +38,27 @@ class Classes_Controller {
 
 		//-- Initiate our Storage System!
 		$this->db_interperter = new Classes_Database('mysql');
-		$this->db_storage     = $this->db_interperter->getStorageSystem();
-		$this->database       = $this->db_storage->startConnection();
+		$this->database = $this->db_interperter->getStorageSystem();
+		$this->database->startConnection();
 
-		$form_errors = array();
-		if (!empty($_REQUEST['action']) && $_REQUEST['action'] == 'register') {
+		$for_template = array();
+		if (!empty($_REQUEST['action']) && $_REQUEST['action'] == 'register' && !empty($_POST['registering'])) {
 			$registration = new Processes_Register($this->database);
 			$registration->validateForm();
-			$form_errors = $registration->getFormErrors();
+			$for_template = $registration->getFormErrors();
+		}
+
+		if (!empty($_REQUEST['action']) && $_REQUEST['action'] == 'activate_user' && !empty($_REQUEST['code'])) {
+			$activation = new Processes_Activate($this->database);
+			$activation->setActivationCode($_REQUEST['code']);
+			$activation->activateUser();
+			$for_template['activation_status'] = $activation->getActivationStatus();
 		}
 
 		//-- This is a very temporary theme switching technique.
 		$theme_key   = 'Classic'; # Modern | Classic
 		$theme_class = 'Themes_' . $theme_key . '_Base';
-		$this->pc_template = new $theme_class($form_errors);
+		$this->pc_template = new $theme_class($for_template);
 
 	}
 

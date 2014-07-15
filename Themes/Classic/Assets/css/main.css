@@ -126,6 +126,14 @@ body.theme_classic #sidebar {
 	background: #909090;
 }
 
+/* Account Activation */
+#success_account_activated, #registration_complete {
+	width: 49%;
+	margin-left: 20%;
+	padding: 10px;
+	margin-top: 10px;
+}
+
 /*
  * Registration CSS
  */
@@ -240,6 +248,6 @@ form#register_form {
 
 .success_box {
 	color: #4f8a10;
-	background-color: #dff2bf;
-	border: 1px solid #00ff00;
+	background: #dff2bf;
+	border: 1px solid #4f8a10;
 }

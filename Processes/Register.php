@@ -73,7 +73,7 @@ class Processes_Register {
 				'email_address' => $_POST['email_address'],
 				'password' => password_hash($_POST['password'], PASSWORD_DEFAULT),
 				'roles_id' => 3, //-- TODO: Implement roles. Right now 3 = Regular Member
-				'activation_code' => sha1(mt_rand(10000, 99999) .time() . $_POST['email_address']),
+				'activation_code' => sha1(mt_rand(10000, 99999) . time() . $_POST['email_address']),
 				'ip_address' => $ip_address,
 				'hostname' => gethostname(),
 			);
